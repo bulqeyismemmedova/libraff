@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+</head>
+
+<body class="relative z-[100]">
+
+    <header class="container mx-auto mt-5">
+        <!-- Mobile Navbar -->
+        <div class="mobileNavbar flex flex-col md:hidden">
+            <div class="allNavbar flex justify-between max-w-full items-center mx-3">
+                <div class="navbar flex gap-5 items-center ">
+                    <button onclick="burger(true)" class="text-[30px]">☰</button>
+                    <div id="hamburger"
+                        class="w-full h-full overflow-scroll bg-white fixed top-0 left-0 z-50 hidden sm:w-[80%] flex-col p-5">
+                        <div class="flex justify-between items-center">
+                            <select class="p-2">
+                                <option value="">AZ</option>
+                                <option value="">RU</option>
+                                <option value="">EN</option>
+                            </select>
+                            <button onclick="burger(false)" class="self-end text-[30px] text-right">X</button>
+                        </div>
+                        <div class="line"></div>
+                        <div class="mt-5 space-y-3">
+                            <div class="flex justify-between items-center">
+                                <div class="text-xl text-[#767676]">Əsas keçidlər</div>
+                                <button id="menuCloseBtn" onclick="menuClick(false)"
+                                    class="text-[#767676] text-4xl hidden">-</button>
+                                <button id="menuOpenBtn" onclick="menuClick(true)"
+                                    class="text-[#767676] text-4xl ">+</button>
+                            </div>
+                            <div id="menuMobile" style="display: none;">
+                                <ul>
+                                    <li><a href="bestseller.htm"
+                                            class="block text-lg text-[17px] font-semibold text-[#0f172a]">Bestseller</a>
+                                    </li>
+                                    <li><a href="endirimlər.htm"
+                                            class="block text-lg text-[17px] font-semibold text-[#0f172a]">Endirimlər</a>
+                                    </li>
+                                    <li><a href="müəlliflər.htm"
+                                            class="block text-lg text-[17px] font-semibold text-[#0f172a]">Müəlliflər</a>
+                                    </li>
+                                    <li><a href="klassiklər.htm"
+                                            class="block text-lg text-[17px] font-semibold text-[#0f172a]">Klassiklər</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="mt-5 space-y-3">
+                            <div class="flex justify-between items-center">
+                                <div class="text-xl text-[#767676]">Kataloq</div>
+                                <button id="kataloqCloseBtn" onclick="kataloqClick(false)"
+                                    class="text-[#767676] text-4xl hidden">-</button>
+                                <button id="kataloqOpenBtn" onclick="kataloqClick(true)"
+                                    class="text-[#767676] text-4xl ">+</button>
+                            </div>
+                            <div id="kataloqMobile" style="display: none;">
+                                <ul>
+                                    <li><a href="#" class="block text-lg text-[17px] font-semibold text-[#0f172a]">Bütün
+                                            kitablar</a></li>
+                                    <li><a href="#" class="block text-lg text-[17px] font-semibold text-[#0f172a]">Bədii
+                                            ədəbiyyat</a></li>
+                                    <li><a href="#"
+                                            class="block text-lg text-[17px] font-semibold text-[#0f172a]">Qeyri-bədii
+                                            ədəbiyyat</a></li>
+                                    <li><a href="#"
+                                            class="block text-lg text-[17px] font-semibold text-[#0f172a]">Klassiklər</a>
+                                    </li>
+                                    <li><a href="#"
+                                            class="block text-lg text-[17px] font-semibold text-[#0f172a]">Detektiv</a>
+                                    </li>
+                                    <li><a href="#"
+                                            class="block text-lg text-[17px] font-semibold text-[#0f172a]">Romanlar &
+                                            Novellalar</a></li>
+                                    <li><a href="#"
+                                            class="block text-lg text-[17px] font-semibold text-[#0f172a]">Elmi-fantastika
+                                            & Fantaziya</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="mt-5 space-y-3">
+                            <div class="flex justify-between items-center">
+                                <div class="text-xl text-[#767676]">Digər</div>
+                                <button id="otherCloseBtn" onclick="otherClick(false)"
+                                    class="text-[#767676] text-4xl hidden">-</button>
+                                <button id="otherOpenBtn" onclick="otherClick(true)"
+                                    class="text-[#767676] text-4xl ">+</button>
+                            </div>
+                            <div id="otherMobile" style="display: none;">
+                                <ul>
+                                    <li><a href="odenis.htm"
+                                            class="block text-lg text-[17px] font-semibold text-[#0f172a]">Ödəniş və
+                                            çatdırılma</a></li>
+                                    <li><a href="loyalliq.htm"
+                                            class="block text-lg text-[17px] font-semibold text-[#0f172a]">Loyallıq
+                                            Kartı</a></li>
+                                    <li><a href="faq.htm"
+                                            class="block text-lg text-[17px] font-semibold text-[#0f172a]">FAQ</a></li>
+                                    <li><a href="elaqe.htm"
+                                            class="block text-lg text-[17px] font-semibold text-[#0f172a]">Əlaqə</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="index.htm"><img width="175" height="45" src="img/logo.png" alt=""></a>
+                </div>
+                <div class="flex gap-3 relative">
+                    <button onclick="user(true)" class="text-[30px]"><i class="fa-solid fa-user"></i></button>
+                    <div id="user"
+                        class="max-w-[70%]  overflow-hidden fixed  bg-white right-9 z-50  my-12 py-3 hidden  flex-col gap-5">
+                        <button onclick="user(false)" class="text-[24px] !text-right px-5">X</button>
+                        <ul class="flex gap-2 flex-col px-5">
+                            <li>Sifarişlər</li>
+                            <li>Qaytarma sorğuları</li>
+                            <li>Seçilmişlər</li>
+                        </ul>
+                        <div class="bg-gray-300 w-full px-5 py-3">
+                            <p>Sifarişi izləmək</p>
+                            <input class="Emailinput" type="email" placeholder="email">
+                        </div>
+                        <div class="px-5 flex justify-between">
+                            <button class="bg-black text-white btnEmail p-3">Daxil ol</button>
+                            <button class="!bg-red-700 text-white p-3 btnEmail">Qeydiyyat</button>
+                        </div>
+                    </div>
+                    <button class="text-[30px]"><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="flex items-center justify-center my-[40px] relative">
+                <input class="input" type="text" placeholder="Axtaris" />
+                <span class="absolute right-12 text-[20px]">🔍︎</span>
+            </div>
+        </div>
+        <!-- Dekstop Navar -->
+
+        <div class="deksNavbar hidden md:flex items-center w-full justify-between">
+            <div>
+                <a href="index.htm"><img width="185" height="45" src="/img/logo.png" alt=""></a>
+            </div>
+            <div>
+                <button onclick="handlePopup(true)" id="openCateg" class="text-[24px] kataloq"><span
+                        class="iconCateg text-[24px] mr-3"><i class="fa-brands fa-elementor"></i></span>
+                    Kataloq</button>
+                <!-- <button onclick="ctg(false)" id="closeCateg" class="text-[24px] kataloq hidden">X
+                    Kataloq</button> -->
+                <div id="categCard"
+                    class="hidden fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90vw] mx-auto bg-white border border-gray-300 rounded-lg shadow-md p-4 md:p-6 z-10  flex-row gap-6 overflow-y-scroll">
+                    <div class="flex">
+                        <ul id="categoryBook" class="w-1/3 grid gap-8"></ul>
+                        <ul id="subCategories" class="w-2/3 grid grid-cols-3 gap-6 p-6"></ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="flex items-center justify-center my-[40px] relative">
+                <input class="input2" type="text" placeholder="Axtaris" />
+                <span class="absolute right-12 text-[20px]">🔍︎</span>
+            </div>
+
+            <div>
+                <select class="p-2">
+                    <option value="">AZ</option>
+                    <option value="">RU</option>
+                    <option value="">EN</option>
+                </select>
+            </div>
+            <div>
+                <button class="hesab"><i class="fa-solid fa-user"></i>Hesabim</button>
+                <div id="userDeks"
+                    class="max-w-[70%] overflow-hidden fixed bg-white z-50 my-3 py-3 hidden flex-col gap-5">
+                    <ul class="flex gap-2 flex-col px-5">
+                        <li>Sifarişlər</li>
+                        <li>Qaytarma sorğuları</li>
+                        <li>Seçilmişlər</li>
+                    </ul>
+                    <div class="bg-gray-300 w-full px-5 py-3">
+                        <p>Sifarişi izləmək</p>
+                        <input class="Emailinput" type="email" placeholder="email">
+                    </div>
+                    <div class="px-5 flex justify-between">
+                        <button class="bg-black text-white btnEmail p-3">Daxil ol</button>
+                        <button class="!bg-red-700 text-white p-3 btnEmail">Qeydiyyat</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="flex gap-5 relative">
+                <a href="favoriler.htm" class="text-[30px]"><i class="fa-regular fa-heart"></i></a>
+                <div id="conut" class="text-white count absolute top-[-20px] right-"></div>
+                <a href="sebet.htm" class="text-[30px]"><i class="fa-solid fa-basket-shopping"></i></a>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div id="outset" class="fixed hidden bg-black/50 inset-0 z-10">
+            <div id="popup" class="w-[80vw] h-[80vw] relative bg-white overflow-y-scroll">
+                <div id="categSub" class="flex">
+                    <ul id="catSec" class="w-[25%] flex flex-col gap-[10px]"></ul>
+                    <ul id="subCatSec" class="w-[25%] bg-[#f5f5f5] h-full flex flex-col gap-[10px]"></ul>
+                    <ul id="subSubCatSec" class="w-[50%] flex flex-col gap-[10px]"></ul>
+                </div>
+                <button onclick="handlePopup(false)"
+                    class="bg-red-700 absolute top-[10px] right-[15px] p-[10px_15px] rounded-[10px] text-white">X</button>
+            </div>
+        </div>
+
+        <!-- Navbar -->
+        <section class="container mx-auto mt-3 hidden md:flex justify-between items-center">
+            <div class="leftDiv flex gap-5 !font-bold">
+                <a href="bestseller.htm">Bestseller</a>
+                <a href="endirimlər.htm">Endirimlər</a>
+                <a href="müəlliflər.htm">Müəlliflər</a>
+                <a href="klassiklər.htm">Klassiklər</a>
+            </div>
+            <div class="rightDiv flex gap-5">
+                <a href="odenis.htm">Ödəniş və çatdırılma</a>
+                <a href="loyalliq.htm">Loyallıq Kartı</a>
+                <a href="faq.htm">FAQ</a>
+                <a href="elaqe.htm">Əlaqə</a>
+            </div>
+        </section>
+        <!-- swiper -->
+        <section>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img
+                            src="https://www.libraff.az/images/abt__ut2/banners/all/1310/3-web-3840x1000_7h5s-r9.webp"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://www.libraff.az/images/abt__ut2/banners/all/1310/01-web-3840x1000.webp" alt="">
+                    </div>
+                    <div class="swiper-slide"><img
+                            src="https://www.libraff.az/images/abt__ut2/banners/all/1305/martin-iden-desktop.webp"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://www.libraff.az/images/abt__ut2/banners/all/1305/Hero-banner-desktop-20_-discount.webp"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://www.libraff.az/images/abt__ut2/banners/all/1312/C%CC%A7ingiz-Abdullayev---I%CC%87mza-saat%C4%B1-web-.webp"
+                            alt=""></div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- Satilanlar -->
+        <section class="container mx-auto my-10 text-[30px] font-medium month">
+            <h2 class="text-[#767676]">Ən son baxdıqlarınız</h2>
+            <div class="line"></div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-10" id="viewCard">
+            </div>
+        </section>
+        <section class="container mx-auto my-10 text-[30px] font-medium month">
+            <h2>Ən çox <span class="text-[#e62828]">satılanlar</span></h2>
+            <div class="line"></div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-10" id="cards">
+
+            </div>
+        </section>
+        <!-- Bestler -->
+        <section class="container mx-auto my-14 pt-10 text-[30px] font-medium month">
+            <h2 id="month"><span class="text-[#e62828]">bestsellerləri</span></h2>
+            <div class="line"></div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-10" id="allBook"></div>
+        </section>
+
+
+
+    </main>
+    <footer class="p-6 dark:bg-gray-100 dark:text-gray-800 mt-10">
+        <div class="container grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-4">
+            <div class="flex flex-col space-y-4">
+                <h2 class="font-medium">Hesabım</h2>
+                <div class="flex flex-col space-y-2 text-sm dark:text-gray-600">
+                    <a rel="noopener noreferrer" href="#">Daxil ol</a>
+                    <a rel="noopener noreferrer" href="#">Qeydiyyatdan keç</a>
+                </div>
+            </div>
+            <div class="flex flex-col space-y-4">
+                <h2 class="font-medium">Şirkət</h2>
+                <div class="flex flex-col space-y-2 text-sm dark:text-gray-600">
+                    <a rel="noopener noreferrer" href="#">Haqqımızda</a>
+                    <a rel="noopener noreferrer" href="#">Əlaqə</a>
+                    <a rel="noopener noreferrer" href="#">Vakansiyalar</a>
+                    <a rel="noopener noreferrer" href="#">Sayt Xəritəs</a>
+                </div>
+            </div>
+            <div class="flex flex-col space-y-4">
+                <h2 class="font-medium">Müştəri Xidməti</h2>
+                <div class="flex flex-col space-y-2 text-sm dark:text-gray-600">
+                    <a rel="noopener noreferrer" href="#">Dəyişdirilmə və qaytarılma</a>
+                    <a rel="noopener noreferrer" href="#">Ödəniş və çatdırılma</a>
+                    <a rel="noopener noreferrer" href="#">Sifarişiniz haqqında</a>
+                    <a rel="noopener noreferrer" href="#">Seçilmişlər</a>
+                </div>
+            </div>
+            <div class="flex flex-col space-y-4">
+                <h2 class="font-medium">Əlaqə</h2>
+                <div class="flex flex-col space-y-2 text-sm dark:text-gray-600">
+                    <a rel="noopener noreferrer" href="#">Bakı, Badamdar qəs., Mikayıl Müşfiq küç. 1c (Badamdar
+                        Estates)</a>
+                    <a rel="noopener noreferrer" href="#">+994-50-290-44-96</a>
+                    <a rel="noopener noreferrer" href="#">B.e.-B. 9.00 - 18.00</a>
+                    <a rel="noopener noreferrer" href="#" class="underline">online@libraff.az</a>
+                    <a rel="noopener noreferrer" href="#" class="underline">Xəritədə bax</a>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto pt-12 text-sm">
+            <span class="dark:text-gray-600">© 2017-2025 Libraff</span>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs';
+
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+    <script type="module" src="js/index.js"></script>
+    <script>
+        const month = document.getElementById('month')
+        const monthNames = [
+    "Yanvar", "Fevral", "Mart", "Aprel", "May", "İyun", 
+    "İyul", "Avqust", "Sentyabr", "Oktyabr", "Noyabr", "Dekabr"
+  ]
+  
+  const currentMonth = new Date().getMonth()
+  
+  month.innerHTML = `${monthNames[currentMonth]} <span class="text-[#e62828]">bestsellerləri</span>`;
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

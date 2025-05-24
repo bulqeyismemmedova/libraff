@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header class="container mx-auto mt-5">
+        <!-- Mobile Navbar -->
+        <div class="mobileNavbar flex flex-col md:hidden">
+            <div class="allNavbar flex justify-between max-w-full items-center mx-3">
+                <div class="navbar flex gap-5 items-center">
+                    <button class="text-[30px]">☰</button>
+                    <a href="index.htm"><img width="175" height="45" src="img/logo.png" alt=""></a>
+                </div>
+                <div class="flex gap-3">
+                    <button class="text-[30px]"><i class="fa-solid fa-user"></i></button>
+                    <button class="text-[30px]"><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="flex items-center justify-center my-[40px] relative">
+                <input class="input" type="text" placeholder="Axtaris"/>
+                <span class="absolute right-12 text-[20px]">🔍︎</span>
+            </div>
+        </div>
+        <!-- Dekstop Navar -->
+        <div class="deksNavbar hidden md:flex items-center w-full justify-between">
+            <div>
+                <a href="index.htm"><img width="185" height="45" src="/img/logo.png" alt=""></a>
+            </div>
+            <div>
+                <button>
+                    <a href="#" class="text-[24px] kataloq "><span class="iconCateg text-[24px]"><i class="fa-brands fa-elementor"></i></span> Kataloq</a>
+                </button>
+            </div>
+            <div class="flex items-center justify-center my-[40px] relative">
+                <input class="input2" type="text" placeholder="Axtaris"/>
+                <span class="absolute right-12 text-[20px]">🔍︎</span>
+            </div>
+            <div>
+                <select>
+                    <option value="">AZ</option>
+                    <option value="">RU</option>
+                    <option value="">EN</option>
+                </select>
+            </div>
+            <div>
+                <button class="hesab"><i class="fa-solid fa-user"></i>Hesabim</button>
+            </div>
+            <div class="flex gap-5">
+                <button class="text-[30px]"><i class="fa-regular fa-heart"></i></button>
+                <button class="text-[30px]"><i class="fa-solid fa-basket-shopping"></i></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container mx-auto mt-3 hidden md:flex justify-between items-center">
+            <div class="leftDiv flex gap-5 !font-bold">
+                <a href="bestseller.htm">Bestseller</a>
+                <a href="endirimlər.htm">Endirimlər</a>
+                <a href="müəlliflər.htm">Müəlliflər</a>
+                <a href="klassiklər.htm">Klassiklər</a>
+            </div>
+            <div class="rightDiv flex gap-5">
+                <a href="odenis.htm">Ödəniş və çatdırılma</a>
+                <a href="loyalliq.htm">Loyallıq Kartı</a>
+                <a href="faq.htm">FAQ</a>
+                <a href="elaqe.htm">Əlaqə</a>
+            </div>
+        </section>
+        <section class="my-12 container mx-auto">
+            <h2 class="font-semibold text-[24px] text-black my-8">Loyallıq Kartı</h2>
+            <img src="img/Loyallıq Kartı - Poster-min.jpg" alt="">
+            <div>
+                <h3 class="font-semibold text-[24px] text-black mt-8">YENİLİK!</h3>
+                <p class="contentOdenis"><span class="font-semibold">˝LIBRAFF˝</span> Mağazalar şəbəkəsindən etdiyiniz hər alış-verişə görə 3% ˝Cashback˝ qazanacaqsınız! Bu sizə əlavə imkanlar və yeni seçimlər yaradacaqdır.
+
+                    Bunun üçün ˝Loyallıq kartı˝mızı əldə etməyiniz kifayətdir. Kartda yığılan vəsaiti həm nağd, həm də onlayn alışlar zamanı istifadə etmək mümkündür.
+                    
+                    Loyallıq kartı olan hər kəs mağazalarımızdakı endirim kampaniyaları və yeniliklər barədə mütəmadi məlumat əldə edə biləcək. Həmçinin etdiyiniz alış-verişə uyğun SİZƏ ÖZƏL təkliflərimiz olacaq!
+                    
+                    Məlumat üçün bildirək ki, endirimdə olan məhsullar üçün keşbek nəzərdə tutulmayıb və toplanan vəsaiti nağdlaşdırmaq qeyri-mümkündür.
+                    
+                    Kartları əldə etmək üçün mağazalarımıza yaxınlaşıb, “Loyallıq Kartı Aktivləşdirmə Anketi”ni doldurmağınız kifayətdir.</p>
+            </div>
+            
+            
+        </section>
+    </main>
+    <footer class="p-6 dark:bg-gray-100 dark:text-gray-800 mt-10">
+        <div class="container grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-4">
+            <div class="flex flex-col space-y-4">
+                <h2 class="font-medium">Hesabım</h2>
+                <div class="flex flex-col space-y-2 text-sm dark:text-gray-600">
+                    <a rel="noopener noreferrer" href="#">Daxil ol</a>
+                    <a rel="noopener noreferrer" href="#">Qeydiyyatdan keç</a>
+                </div>
+            </div>
+            <div class="flex flex-col space-y-4">
+                <h2 class="font-medium">Şirkət</h2>
+                <div class="flex flex-col space-y-2 text-sm dark:text-gray-600">
+                    <a rel="noopener noreferrer" href="#">Haqqımızda</a>
+                    <a rel="noopener noreferrer" href="#">Əlaqə</a>
+                    <a rel="noopener noreferrer" href="#">Vakansiyalar</a>
+                    <a rel="noopener noreferrer" href="#">Sayt Xəritəs</a>
+                </div>
+            </div>
+            <div class="flex flex-col space-y-4">
+                <h2 class="font-medium">Müştəri Xidməti</h2>
+                <div class="flex flex-col space-y-2 text-sm dark:text-gray-600">
+                    <a rel="noopener noreferrer" href="#">Dəyişdirilmə və qaytarılma</a>
+                    <a rel="noopener noreferrer" href="#">Ödəniş və çatdırılma</a>
+                    <a rel="noopener noreferrer" href="#">Sifarişiniz haqqında</a>
+                    <a rel="noopener noreferrer" href="#">Seçilmişlər</a>
+                </div>
+            </div>
+            <div class="flex flex-col space-y-4">
+                <h2 class="font-medium">Əlaqə</h2>
+                <div class="flex flex-col space-y-2 text-sm dark:text-gray-600">
+                    <a rel="noopener noreferrer" href="#">Bakı, Badamdar qəs., Mikayıl Müşfiq küç. 1c (Badamdar Estates)</a>
+                    <a rel="noopener noreferrer" href="#">+994-50-290-44-96</a>
+                    <a rel="noopener noreferrer" href="#">B.e.-B. 9.00 - 18.00</a>
+                    <a rel="noopener noreferrer" href="#" class="underline">online@libraff.az</a>
+                    <a rel="noopener noreferrer" href="#" class="underline">Xəritədə bax</a>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto pt-12 text-sm">
+            <span class="dark:text-gray-600">© 2017-2025 Libraff</span>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

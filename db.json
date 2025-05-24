@@ -1,0 +1,920 @@
+{
+  "kitablar": [
+    {
+      "name": "1984",
+      "author": "Corc Oruell",
+      "desc": "Distopik ədəbiyyatın ən məşhur nümunələrindən biri.",
+      "category": "Bədii ədəbiyyat",
+      "underCategory": "Roman,Elmi fantastika,Dram",
+      "price": "12.90",
+      "stok": "8",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/066de26e-1fba-11ed-a50a-503eaa120fc7_2.jpg.webp",
+      "lang": [
+        "AZE,ENG"
+      ],
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Kiçik Şahzadə",
+      "author": "Antuan de Sent-Ekzüperi",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/182511be-3769-11ee-a519-503eaa120fc7_1.jpg.webp",
+      "price": 9,
+      "desc": "Həm uşaqlar, həm də böyüklər üçün dəyərli bir əsər.",
+      "category": "Uşaq ədəbiyyatı",
+      "underCategory": [
+        "Nağıl",
+        "Hekayə"
+      ],
+      "lang": [
+        "AZE",
+        "RUS",
+        "ENG"
+      ],
+      "stok": 15,
+      "sold": 3,
+      "view": 6,
+      "star": 2
+    },
+    {
+      "name": "Cinayət və Cəza",
+      "author": "Fyodor Dostoyevski",
+      "desc": "Psixoloji dram janrının zirvələrindən.",
+      "category": "Bədii ədəbiyyat",
+      "underCategory": "Roman,Dram,Fəlsəfə",
+      "price": "14",
+      "stok": "15",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/17515e94-2a25-11ef-a54f-503eaa128442_1.jpg.webp",
+      "lang": [
+        "AZE"
+      ],
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "Ələddinin sehrli çırağı",
+      "author": "Anonim",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/3aabaf6d-5054-11eb-a4d2-503eaa128442_1.jpg.webp",
+      "price": 7,
+      "desc": "Min bir gecə nağıllarından bir klassik.",
+      "category": "Uşaq ədəbiyyatı",
+      "underCategory": [
+        "Nağıl"
+      ],
+      "lang": [
+        "AZE",
+        "TUR"
+      ],
+      "stok": 20,
+      "sold": 1,
+      "view": 0,
+      "star": 0
+    },
+    {
+      "id": 7,
+      "name": "Doryer Qrey",
+      "author": "Migel de Servantes",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/305ec66c-5052-11eb-a4d2-503eaa128442_1.jpg.webp",
+      "price": 16,
+      "desc": "İspan ədəbiyyatının şah əsəri.",
+      "category": "Bədii ədəbiyyat",
+      "underCategory": [
+        "Roman",
+        "Satira"
+      ],
+      "lang": [
+        "AZE",
+        "TUR"
+      ],
+      "stok": 9,
+      "sold": 4,
+      "view": 55,
+      "star": 5
+    },
+    {
+      "id": 8,
+      "name": "Hamlet",
+      "author": "Uilyam Şekspir",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/3cc26ae0-9563-11ec-a4fe-503eaa120fc7_1.jpg.webp",
+      "price": 13,
+      "desc": "Dünya teatrının ən məşhur faciələrindən.",
+      "category": "Bədii ədəbiyyat",
+      "underCategory": [
+        "Pyes",
+        "Dram"
+      ],
+      "lang": [
+        "AZE",
+        "ENG"
+      ],
+      "stok": 11,
+      "sold": 6,
+      "view": 9.5,
+      "star": 1
+    },
+    {
+      "id": 9,
+      "name": "21 günə həyatını dəyiş",
+      "author": "Qabriel Markes",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/066de26d-1fba-11ed-a50a-503eaa120fc7_1.jpg.webp",
+      "price": 18,
+      "desc": "Magik realizmin ən gözəl nümunələrindən.",
+      "category": "Bədii ədəbiyyat",
+      "underCategory": [
+        "Roman",
+        "Magik realizm"
+      ],
+      "lang": [
+        "AZE"
+      ],
+      "stok": 6,
+      "sold": 8,
+      "view": 6.5,
+      "star": 3
+    },
+    {
+      "id": 10,
+      "name": "Hobbit",
+      "author": "Con Tolkin",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/56884bf6-5053-11eb-a4d2-503eaa128442_1.jpg.webp",
+      "price": 10,
+      "desc": "Fantastik ədəbiyyatın sevilən klassiki.",
+      "category": "Bədii ədəbiyyat",
+      "underCategory": [
+        "Fantastika",
+        "Macəra"
+      ],
+      "lang": [
+        "AZE",
+        "TUR",
+        "ENG"
+      ],
+      "stok": 13,
+      "sold": 5,
+      "view": 4.6,
+      "star": 0
+    },
+    {
+      "id": 11,
+      "name": "Şahnamə",
+      "author": "Firdovsi",
+      "img": "https://www.libraff.az/images/thumbnails/400/600/from_1c/3f0fbe5b-504b-11eb-a4d2-503eaa128442_1.jpg.webp",
+      "price": 25,
+      "desc": "Fars ədəbiyyatının ən böyük epik poeması.",
+      "category": "Tarixi ədəbiyyat",
+      "underCategory": [
+        "Poema",
+        "Tarix"
+      ],
+      "lang": [
+        "AZE",
+        "FAR"
+      ],
+      "stok": 5,
+      "sold": 2,
+      "view": 2.5,
+      "star": 4
+    },
+    {
+      "id": 12,
+      "name": "Kaş ki gülən ölüm olsa",
+      "author": "Qüdrət Kərim Sabit",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/4e45ef75-d4f7-11ef-a56c-503eaa120fc7_1.jpg.webp",
+      "price": 20,
+      "desc": "Türk sufizminin mühüm əsərlərindən.",
+      "category": "Fəlsəfi ədəbiyyat",
+      "underCategory": [
+        "Sufizm",
+        "Poema"
+      ],
+      "lang": [
+        "AZE",
+        "TUR"
+      ],
+      "stok": 7,
+      "sold": 3,
+      "view": 7.8,
+      "star": 2
+    },
+    {
+      "id": 13,
+      "name": "Dilənçi qadının sirri",
+      "author": "Elxan Elatlı",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/5606cf88-5050-11eb-a4d2-503eaa128442_1.jpg.webp",
+      "price": 17,
+      "desc": "Peyğəmbərin həyatına dair ən məşhur bioqrafiyalardan.",
+      "category": "Bioqrafiya",
+      "underCategory": [
+        "Din",
+        "Tarix"
+      ],
+      "lang": [
+        "AZE",
+        "ENG"
+      ],
+      "stok": 9,
+      "sold": 6,
+      "view": 22.3,
+      "star": 5
+    },
+    {
+      "id": 14,
+      "name": "Nəfəs",
+      "author": "Ramiz Rövşən",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/85604437-24bf-11ef-a54e-503eaa120fc7_1.jpg.webp",
+      "price": 22,
+      "desc": "Türkiyə İstiqlaliyyət Müharibəsinin və Cümhuriyyətin quruluşunun tarixi.",
+      "category": "Tarixi ədəbiyyat",
+      "underCategory": [
+        "Tarix",
+        "Siyasət"
+      ],
+      "lang": [
+        "TUR",
+        "AZE"
+      ],
+      "stok": 6,
+      "sold": 4,
+      "view": 8.5,
+      "star": 0
+    },
+    {
+      "id": 15,
+      "name": "Balaca Qara Balıq",
+      "author": "Səməd Behrəngi",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/890dc864-e409-11ed-a519-503eaa120fc7_1.jpg.webp",
+      "price": 8,
+      "desc": "Azərbaycan uşaq ədəbiyyatının sevilən əsəri.",
+      "category": "Uşaq ədəbiyyatı",
+      "underCategory": [
+        "Nağıl"
+      ],
+      "lang": [
+        "AZE"
+      ],
+      "stok": 18,
+      "sold": 2,
+      "view": 7.8,
+      "star": 3
+    },
+    {
+      "id": 16,
+      "name": "İkiqay",
+      "author": "Hektor Qarsiya",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/da6bc7ae-4cb1-11ee-a51a-503eaa120fc7_1.jpg.webp",
+      "price": 30,
+      "desc": "Azərbaycan klassik ədəbiyyatının zirvəsi.",
+      "category": "Klassik ədəbiyyat",
+      "underCategory": [
+        "Poema"
+      ],
+      "lang": [
+        "AZE",
+        "FAR"
+      ],
+      "stok": 4,
+      "sold": 1,
+      "view": 1,
+      "star": 1
+    },
+    {
+      "id": 17,
+      "name": "Yevgeni Onegin",
+      "author": "Aleksandr Puşkin",
+      "img": "https://www.libraff.az/images/thumbnails/400/600/from_1c/5adec366-6f96-11ec-a4fd-503eaa120fc7_1.jpg.webp",
+      "price": 19,
+      "desc": "Rus ədəbiyyatının ən məşhur romanlarından biri.",
+      "category": "Bədii ədəbiyyat",
+      "underCategory": [
+        "Roman",
+        "Poema"
+      ],
+      "lang": [
+        "AZE",
+        "RUS"
+      ],
+      "stok": 8,
+      "sold": 5,
+      "view": 2,
+      "star": 4
+    },
+    {
+      "id": 18,
+      "name": "Qürur və Qərəz",
+      "author": "Ceyn Ostin",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/8c459dcf-fb06-11ee-a54e-503eaa120fc7_1.jpg.webp",
+      "price": 14,
+      "desc": "İngilis ədəbiyyatının sevilən klassiki.",
+      "category": "Bədii ədəbiyyat",
+      "underCategory": [
+        "Roman"
+      ],
+      "lang": [
+        "AZE",
+        "ENG"
+      ],
+      "stok": 10,
+      "sold": 7,
+      "view": 5,
+      "star": 2
+    },
+    {
+      "id": 19,
+      "name": "Qəşəng dost",
+      "author": "Ernest Heminquey",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/c41418d0-89da-11ee-a525-503eaa120fc7_1.jpg.webp",
+      "price": 16,
+      "desc": "Birinci Dünya Müharibəsi dövründə sevgi və itki hekayəsi.",
+      "category": "Bədii ədəbiyyat",
+      "underCategory": [
+        "Roman",
+        "Müharibə"
+      ],
+      "lang": [
+        "AZE"
+      ],
+      "stok": 12,
+      "sold": 3,
+      "view": 0,
+      "star": 5
+    },
+    {
+      "id": 20,
+      "name": "Martin İden",
+      "author": "Cek London",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/martin-iden-front-book__1_.jpg.webp",
+      "price": 13,
+      "desc": "Yazıçı olmaq istəyən bir dənizçinin hekayəsi.",
+      "category": "Bədii ədəbiyyat",
+      "underCategory": [
+        "Roman",
+        "Bioqrafiya"
+      ],
+      "lang": [
+        "AZE",
+        "TUR"
+      ],
+      "stok": 9,
+      "sold": 6,
+      "view": 3,
+      "star": 0
+    },
+    {
+      "id": 21,
+      "name": "Anna Karenina",
+      "author": "Lev Tolstoy",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/5596928a-6e72-11ee-a51c-503eaa120fc7_1.jpg.webp",
+      "price": 21,
+      "desc": "Rus ədəbiyyatının ən böyük sevgi romanlarından.",
+      "category": "Bədii ədəbiyyat",
+      "underCategory": [
+        "Roman",
+        "Dram"
+      ],
+      "lang": [
+        "RUS"
+      ],
+      "stok": 7,
+      "sold": 4,
+      "view": 2,
+      "star": 3
+    },
+    {
+      "id": 22,
+      "name": "Boz Qurd",
+      "author": "Hüseyn Nihal Atsız",
+      "img": "https://static.ticimax.cloud/58417/uploads/urunresimleri/sayilarla-boyama-seti-bozkurt-e5d417.jpeg",
+      "price": 15,
+      "desc": "Türkçülük ideologiyasının əsas əsərlərindən.",
+      "category": "Tarixi ədəbiyyat",
+      "underCategory": [
+        "Roman",
+        "Tarix"
+      ],
+      "lang": [
+        "TUR"
+      ],
+      "stok": 11,
+      "sold": 2,
+      "view": 0,
+      "star": 1
+    },
+    {
+      "id": 23,
+      "name": "Dahi",
+      "author": "TEODOR DRAYZER",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/1ca8cb8a-5054-11eb-a4d2-503eaa128442_2.jpg.webp",
+      "price": 18,
+      "desc": "Hikmətli hekayələr və nəsihətlər toplusu.",
+      "category": "Fəlsəfi ədəbiyyat",
+      "underCategory": [
+        "Hekayə",
+        "Nəsihət"
+      ],
+      "lang": [
+        "AZE",
+        "FAR"
+      ],
+      "stok": 6,
+      "sold": 5,
+      "view": 3,
+      "star": 4
+    },
+    {
+      "id": 24,
+      "name": "Uçurtma avcısı",
+      "author": "Khaled Hosseini",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/60542434-5052-11eb-a4d2-503eaa128442_1.jpg.webp",
+      "price": 12,
+      "desc": "Əfqanıstanda dostluq və xəyanət haqqında təsirli roman.",
+      "category": "Bədii ədəbiyyat",
+      "underCategory": [
+        "Roman",
+        "Dram"
+      ],
+      "lang": [
+        "AZE",
+        "ENG"
+      ],
+      "stok": 14,
+      "sold": 5,
+      "view": 0,
+      "star": 2
+    },
+    {
+      "id": 25,
+      "name": "Simurq quşu",
+      "author": "Məhəmməd Hadi",
+      "img": "https://qadin.net/uploads/posts/2019-07/1562398326_zmrd.jpg",
+      "price": 10,
+      "desc": "Azərbaycan romantizminin görkəmli nümayəndəsinin poeması.",
+      "category": "Klassik ədəbiyyat",
+      "underCategory": [
+        "Poema",
+        "Romantizm"
+      ],
+      "lang": [
+        "AZE"
+      ],
+      "stok": 15,
+      "sold": 3,
+      "view": 0,
+      "star": 5
+    },
+    {
+      "id": 26,
+      "name": "Seçilmiş əsərləri",
+      "author": "Ələkbər Dehqani",
+      "img": "https://www.libraff.az/images/thumbnails/400/600/from_1c/7bb4b02e-faef-11ed-a519-503eaa120fc7_1.jpg.webp",
+      "price": 14,
+      "desc": "Azərbaycan şairinin seçilmiş şeirləri və poemaları.",
+      "category": "Qeyri-bədii usaq ədəbiyyat",
+      "underCategory": [
+        "Şeir",
+        "Poema"
+      ],
+      "lang": [
+        "AZE"
+      ],
+      "stok": 11,
+      "sold": 6,
+      "view": 2,
+      "star": 0
+    },
+    {
+      "id": 27,
+      "name": "Bilinmeyen Bir Kadının Mektubu ",
+      "author": "STEFAN ZWEIG",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/42779234-a84f-11ed-a515-503eaa120fc7_1.jpg.webp",
+      "price": 7,
+      "desc": "Fransız xalq nağılı əsasında yazılmış məşhur uşaq nağılı.",
+      "category": "Uşaq ədəbiyyatı",
+      "underCategory": [
+        "Nağıl"
+      ],
+      "lang": [
+        "AZE",
+        "RUS",
+        "ENG"
+      ],
+      "stok": 22,
+      "sold": 1,
+      "view": 0,
+      "star": 3
+    },
+    {
+      "id": 28,
+      "name": "Qraf Monte Kristo ",
+      "author": "ALEKSANDR DÜMA",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/b0ebee08-c3c8-11ed-a519-503eaa120fc7_1.jpg.webp",
+      "price": 9,
+      "desc": "Min bir gecə nağıllarından maraqlı səyahət hekayələri.",
+      "category": "Bədii usaq ədəbiyyatı",
+      "underCategory": [
+        "Nağıl",
+        "Macəra"
+      ],
+      "lang": [
+        "AZE",
+        "TUR"
+      ],
+      "stok": 18,
+      "sold": 4,
+      "view": 0,
+      "star": 1
+    },
+    {
+      "id": 30,
+      "name": "Fareler Ve Insanlar",
+      "author": "Daniel Defo",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/4a88e93a-5053-11eb-a4d2-503eaa128442_1.jpg.webp",
+      "price": 12,
+      "desc": "Tənha adada sağ qalan bir insanın həyat hekayəsi.",
+      "category": "Bədii ədəbiyyat",
+      "underCategory": [
+        "Roman",
+        "Macəra"
+      ],
+      "lang": [
+        "AZE",
+        "TUR",
+        "RUS"
+      ],
+      "stok": 13,
+      "sold": 5,
+      "view": 3,
+      "star": 2
+    },
+    {
+      "id": 31,
+      "name": "Kürk Mantolu Madonna ",
+      "author": "SABAHATTIN ALI",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/4a88e931-5053-11eb-a4d2-503eaa128442_1.jpg.webp",
+      "price": 28,
+      "desc": "Qədim Yunan ədəbiyyatının ən böyük epik poemalarından.",
+      "category": "Klassik ədəbiyyat",
+      "underCategory": [
+        "Poema",
+        "Tarix"
+      ],
+      "lang": [
+        "AZE",
+        "TUR"
+      ],
+      "stok": 6,
+      "sold": 2,
+      "view": 0,
+      "star": 5
+    },
+    {
+      "name": "Devid Kopperfild",
+      "author": "Mahmud Kaşğari",
+      "desc": "XI əsr türk dilinin ən mühüm abidələrindən biri.",
+      "category": "Tarixi ədəbiyyat",
+      "underCategory": "Dilçilik,Tarix",
+      "price": "40",
+      "stok": "23",
+      "img": "https://www.libraff.az/images/thumbnails/400/600/from_1c/17494dab-f62b-11ed-a519-503eaa120fc7_1.jpg.webp",
+      "lang": [
+        "AZE",
+        "TUR"
+      ],
+      "id": 33
+    },
+    {
+      "name": "Psixiatr xanım",
+      "author": "Elxan Elatli",
+      "desc": "<p>İmkanlı bir ailənin yeganə oğul &ouml;vladı olan R&uuml;fət hələ &ccedil;ox &nbsp;gənc yaşlarında tay-tuşlarının həsədlə baxdığı hər şeyə &nbsp;malik idi. N&uuml;fuzlu alim olan deputat atası ona şirkət a&ccedil;mış, &nbsp;ayrıca mənzil və bahalı maşın almışdı. Yaxşı qazancı, &nbsp;g&ouml;zəl ailəsi, canından da &ccedil;ox istədiyi bir qızı vardı. Xoşbəxt &nbsp;olmaq &uuml;&ccedil;&uuml;n insana daha nə lazımdır ki?! Amma yox. İşdə &nbsp;qızların-qadınların başına pərvanə kimi dolandığı bu gənc, &nbsp;yaraşıqlı və ədalı iş adamı &ouml;z&uuml;n&uuml; he&ccedil; də xoşbəxt saymır, &nbsp;amma bunun səbəbini də tapa bilmir. Ailəsinin onu xoşbəxt &nbsp;edə bilmədiyini d&uuml;ş&uuml;n&uuml;r, əsl sevgini başqa qadınlarda &nbsp;axtarır. Təsad&uuml;fən gənc bir tələbə qızla rastlaşandan sonra &nbsp;isə dincliyi tamam pozulur. Amma bu da uzun s&uuml;rm&uuml;r. &nbsp;Bir g&uuml;n işg&uuml;zar bir təkliflə onun ofisinə gələn gənc psixiatr &nbsp;Nuray Qədirli ilə tanışlıq isə R&uuml;fətin həyatını b&uuml;sb&uuml;t&uuml;n dəyişir, &nbsp;psixiatrla hər g&ouml;r&uuml;ş&uuml; onu &ouml;z&uuml;nə daha dərindən tanıtdırır. &nbsp;Bundan sonra isə həyatı cəhənnəm əzabına &ccedil;evrilir...</p>",
+      "category": "Bədii ədəbiyyat",
+      "underCategory": "dedektiv",
+      "price": "10.9",
+      "stok": "22",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/1134fdb8-3096-11f0-a56c-503eaa120fc7_1.jpg.webp",
+      "lang": [
+        "AZE"
+      ],
+      "id": 35
+    },
+    {
+      "name": "Siz möhtəşəmsiniz",
+      "author": "Metyu Syed",
+      "desc": "<p>ƏGƏR İSTƏNİLƏN SAHƏDƏ M&Ouml;HTƏŞƏM OLSANIZ, NƏ BAŞ VERƏR? Bu sizin təsəvv&uuml;r etdiyiniz kimi əl&ccedil;atmaz iş deyil. Əgər siz aşağıdakı kimi d&uuml;ş&uuml;n&uuml;rs&uuml;n&uuml;zsə... &bull; Riyaziyyatla məşğul olmaq &uuml;&ccedil;&uuml;n x&uuml;susi n&ouml;v beyin lazımdır; &bull; İdmanda ya istedadlısınız, ya da ki yox; &bull; Bədənimdə musiqini duyan s&uuml;m&uuml;k yoxdur ...o halda bilin ki, bu kitabı sizin &uuml;&ccedil;&uuml;n yazmışam. Sizin irəli getməyinizə mane olan inanclarınıza meydan oxumaq &uuml;&ccedil;&uuml;n yazmışam. Doğru d&uuml;ş&uuml;ncəniz sizə istənilən sahədə uğur qazanmağa, xəyallarınızı ger&ccedil;əkləşdirməyə k&ouml;mək edə bilər. MƏN BİLİRƏM Kİ, bunu bacararsınız. Necə? Məsələn, mən &ouml;z&uuml;m anadan idman&ccedil;ı doğulmasam da, ikiqat olimpiya &ccedil;empionuyam. Bəs he&ccedil; bilirsiniz, sizin bu işi bacaracağınızı haradan bilirəm? &Ccedil;&Uuml;NKİ SİZ M&Ouml;HTƏŞƏMSİNİZ.</p><p>&nbsp;</p>",
+      "category": "Uşaq ədəbiyyatı",
+      "underCategory": "Şəxsi inkişaf",
+      "price": "6.90",
+      "stok": "24",
+      "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/26515e1e-7dc8-11ec-a4fd-503eaa120fc7_1.jpg.webp",
+      "lang": [
+        "AZE",
+        "TUR"
+      ],
+      "id": 36,
+      "view": 49
+    }
+  ],
+  "slider": [],
+  "comments": [
+    {
+      "bookId": 1,
+      "comments": []
+    },
+    {
+      "bookId": 2,
+      "comments": []
+    },
+    {
+      "bookId": 3,
+      "comments": [
+        {
+          "userId": 1,
+          "text": "Çox düşündürücü bir kitabdır."
+        },
+        {
+          "userId": 2,
+          "text": "Mütləq oxunmalı!"
+        }
+      ]
+    },
+    {
+      "bookId": 4,
+      "comments": [
+        {
+          "userId": 3,
+          "text": "Hər yaş üçün gözəl bir hekayə."
+        },
+        {
+          "userId": 1,
+          "text": "Mən çox sevdim."
+        }
+      ]
+    },
+    {
+      "bookId": 5,
+      "comments": [
+        {
+          "userId": 4,
+          "text": "Ağır, amma dərin mənalı."
+        }
+      ]
+    },
+    {
+      "bookId": 6,
+      "comments": [
+        {
+          "userId": 5,
+          "text": "Uşaqlar üçün əyləncəli nağıl."
+        }
+      ]
+    },
+    {
+      "bookId": 7,
+      "comments": [
+        {
+          "userId": 2,
+          "text": "Klassikləri sevənlər üçün ideal."
+        }
+      ]
+    },
+    {
+      "bookId": 8,
+      "comments": [
+        {
+          "userId": 1,
+          "text": "Dahi bir əsərdir."
+        }
+      ]
+    },
+    {
+      "bookId": 9,
+      "comments": [
+        {
+          "userId": 3,
+          "text": "Magik realizmin gözəl nümunəsi."
+        }
+      ]
+    },
+    {
+      "bookId": 10,
+      "comments": [
+        {
+          "userId": 4,
+          "text": "Fantastika həvəskarları üçün əla seçim."
+        }
+      ]
+    },
+    {
+      "bookId": 11,
+      "comments": [
+        {
+          "userId": 5,
+          "text": "Milli qürurverici bir əsər."
+        }
+      ]
+    },
+    {
+      "bookId": 12,
+      "comments": [
+        {
+          "userId": 2,
+          "text": "Sufi fəlsəfəsini gözəl izah edir."
+        }
+      ]
+    },
+    {
+      "bookId": 13,
+      "comments": [
+        {
+          "userId": 1,
+          "text": "Maraqlı bioqrafiya."
+        }
+      ]
+    },
+    {
+      "bookId": 14,
+      "comments": [
+        {
+          "userId": 3,
+          "text": "Tarixi hadisələri yaxşı əks etdirir."
+        }
+      ]
+    },
+    {
+      "bookId": 15,
+      "comments": [
+        {
+          "userId": 4,
+          "text": "Uşaqlığımın sevimli kitabı."
+        }
+      ]
+    },
+    {
+      "bookId": 16,
+      "comments": [
+        {
+          "userId": 5,
+          "text": "Klassik ədəbiyyatımızın dəyərli nümunəsi."
+        }
+      ]
+    },
+    {
+      "bookId": 17,
+      "comments": [
+        {
+          "userId": 2,
+          "text": "Rus ədəbiyyatının incisi."
+        }
+      ]
+    },
+    {
+      "bookId": 18,
+      "comments": [
+        {
+          "userId": 1,
+          "text": "Romantik və düşündürücü."
+        }
+      ]
+    },
+    {
+      "bookId": 19,
+      "comments": [
+        {
+          "userId": 3,
+          "text": "Müharibənin acı nəticələrini göstərir."
+        }
+      ]
+    },
+    {
+      "bookId": 20,
+      "comments": [
+        {
+          "userId": 4,
+          "text": "Mübarizə və uğur hekayəsi."
+        }
+      ]
+    },
+    {
+      "bookId": 21,
+      "comments": [
+        {
+          "userId": 5,
+          "text": "Sevgi və faciənin güclü təsviri."
+        }
+      ]
+    },
+    {
+      "bookId": 22,
+      "comments": [
+        {
+          "userId": 2,
+          "text": "Türkçülük ideologiyasının əhəmiyyətli əsəri."
+        }
+      ]
+    },
+    {
+      "bookId": 23,
+      "comments": [
+        {
+          "userId": 1,
+          "text": "Hikmətli və nəsihətamiz hekayələr."
+        }
+      ]
+    },
+    {
+      "bookId": 24,
+      "comments": [
+        {
+          "userId": 3,
+          "text": "Çox təsirli bir roman."
+        }
+      ]
+    },
+    {
+      "bookId": 25,
+      "comments": [
+        {
+          "userId": 4,
+          "text": "Romantik poeziyanın gözəl nümunəsi."
+        }
+      ]
+    },
+    {
+      "bookId": 26,
+      "comments": [
+        {
+          "userId": 5,
+          "text": "Şeir və poeziya sevərlər üçün."
+        }
+      ]
+    },
+    {
+      "bookId": 27,
+      "comments": [
+        {
+          "userId": 2,
+          "text": "Uşaqlar üçün maraqlı nağıl."
+        }
+      ]
+    },
+    {
+      "bookId": 28,
+      "comments": [
+        {
+          "userId": 1,
+          "text": "Macəra dolu və həyəcanverici."
+        }
+      ]
+    },
+    {
+      "bookId": 29,
+      "comments": []
+    },
+    {
+      "bookId": 30,
+      "comments": [
+        {
+          "userId": 3,
+          "text": "Tənhalıq və sağ qalma mübarizəsi."
+        }
+      ]
+    },
+    {
+      "bookId": 31,
+      "comments": [
+        {
+          "userId": 4,
+          "text": "Məhəbbətin gücünü göstərir."
+        }
+      ]
+    },
+    {
+      "bookId": 32,
+      "comments": []
+    },
+    {
+      "bookId": 33,
+      "comments": [
+        {
+          "userId": 5,
+          "text": "Dilçilik və tarix üçün dəyərli mənbə."
+        }
+      ]
+    },
+    {
+      "bookId": 34,
+      "comments": []
+    },
+    {
+      "bookId": 35,
+      "comments": []
+    },
+    {
+      "bookId": 36,
+      "comments": [
+        {
+          "userId": 2,
+          "text": "Motivasiyaedici kitab."
+        }
+      ]
+    }
+  ]
+}
