@@ -12,10 +12,10 @@
       "lang": [
         "AZE,ENG"
       ],
-      "id": 3
+      "id": "3"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Kiçik Şahzadə",
       "author": "Antuan de Sent-Ekzüperi",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/182511be-3769-11ee-a519-503eaa120fc7_1.jpg.webp",
@@ -48,10 +48,10 @@
       "lang": [
         "AZE"
       ],
-      "id": 5
+      "id": "5"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Ələddinin sehrli çırağı",
       "author": "Anonim",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/3aabaf6d-5054-11eb-a4d2-503eaa128442_1.jpg.webp",
@@ -71,7 +71,7 @@
       "star": 0
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Doryer Qrey",
       "author": "Migel de Servantes",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/305ec66c-5052-11eb-a4d2-503eaa128442_1.jpg.webp",
@@ -88,11 +88,11 @@
       ],
       "stok": 9,
       "sold": 4,
-      "view": 55,
+      "view": 58,
       "star": 5
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Hamlet",
       "author": "Uilyam Şekspir",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/3cc26ae0-9563-11ec-a4fe-503eaa120fc7_1.jpg.webp",
@@ -109,11 +109,11 @@
       ],
       "stok": 11,
       "sold": 6,
-      "view": 9.5,
+      "view": 12.5,
       "star": 1
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "21 günə həyatını dəyiş",
       "author": "Qabriel Markes",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/066de26d-1fba-11ed-a50a-503eaa120fc7_1.jpg.webp",
@@ -133,7 +133,7 @@
       "star": 3
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Hobbit",
       "author": "Con Tolkin",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/56884bf6-5053-11eb-a4d2-503eaa128442_1.jpg.webp",
@@ -155,7 +155,7 @@
       "star": 0
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Şahnamə",
       "author": "Firdovsi",
       "img": "https://www.libraff.az/images/thumbnails/400/600/from_1c/3f0fbe5b-504b-11eb-a4d2-503eaa128442_1.jpg.webp",
@@ -176,7 +176,7 @@
       "star": 4
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Kaş ki gülən ölüm olsa",
       "author": "Qüdrət Kərim Sabit",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/4e45ef75-d4f7-11ef-a56c-503eaa120fc7_1.jpg.webp",
@@ -197,7 +197,7 @@
       "star": 2
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Dilənçi qadının sirri",
       "author": "Elxan Elatlı",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/5606cf88-5050-11eb-a4d2-503eaa128442_1.jpg.webp",
@@ -214,11 +214,11 @@
       ],
       "stok": 9,
       "sold": 6,
-      "view": 22.3,
+      "view": 25.3,
       "star": 5
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Nəfəs",
       "author": "Ramiz Rövşən",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/85604437-24bf-11ef-a54e-503eaa120fc7_1.jpg.webp",
@@ -239,7 +239,7 @@
       "star": 0
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Balaca Qara Balıq",
       "author": "Səməd Behrəngi",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/890dc864-e409-11ed-a519-503eaa120fc7_1.jpg.webp",
@@ -258,7 +258,7 @@
       "star": 3
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "İkiqay",
       "author": "Hektor Qarsiya",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/da6bc7ae-4cb1-11ee-a51a-503eaa120fc7_1.jpg.webp",
@@ -278,7 +278,7 @@
       "star": 1
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Yevgeni Onegin",
       "author": "Aleksandr Puşkin",
       "img": "https://www.libraff.az/images/thumbnails/400/600/from_1c/5adec366-6f96-11ec-a4fd-503eaa120fc7_1.jpg.webp",
@@ -299,7 +299,7 @@
       "star": 4
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Qürur və Qərəz",
       "author": "Ceyn Ostin",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/8c459dcf-fb06-11ee-a54e-503eaa120fc7_1.jpg.webp",
@@ -319,7 +319,7 @@
       "star": 2
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Qəşəng dost",
       "author": "Ernest Heminquey",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/c41418d0-89da-11ee-a525-503eaa120fc7_1.jpg.webp",
@@ -339,7 +339,7 @@
       "star": 5
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Martin İden",
       "author": "Cek London",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/martin-iden-front-book__1_.jpg.webp",
@@ -360,7 +360,7 @@
       "star": 0
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Anna Karenina",
       "author": "Lev Tolstoy",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/5596928a-6e72-11ee-a51c-503eaa120fc7_1.jpg.webp",
@@ -380,7 +380,7 @@
       "star": 3
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Boz Qurd",
       "author": "Hüseyn Nihal Atsız",
       "img": "https://static.ticimax.cloud/58417/uploads/urunresimleri/sayilarla-boyama-seti-bozkurt-e5d417.jpeg",
@@ -400,7 +400,7 @@
       "star": 1
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "Dahi",
       "author": "TEODOR DRAYZER",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/1ca8cb8a-5054-11eb-a4d2-503eaa128442_2.jpg.webp",
@@ -417,11 +417,11 @@
       ],
       "stok": 6,
       "sold": 5,
-      "view": 3,
+      "view": 4,
       "star": 4
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "Uçurtma avcısı",
       "author": "Khaled Hosseini",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/60542434-5052-11eb-a4d2-503eaa128442_1.jpg.webp",
@@ -442,7 +442,7 @@
       "star": 2
     },
     {
-      "id": 25,
+      "id": "25",
       "name": "Simurq quşu",
       "author": "Məhəmməd Hadi",
       "img": "https://qadin.net/uploads/posts/2019-07/1562398326_zmrd.jpg",
@@ -462,7 +462,7 @@
       "star": 5
     },
     {
-      "id": 26,
+      "id": "26",
       "name": "Seçilmiş əsərləri",
       "author": "Ələkbər Dehqani",
       "img": "https://www.libraff.az/images/thumbnails/400/600/from_1c/7bb4b02e-faef-11ed-a519-503eaa120fc7_1.jpg.webp",
@@ -482,7 +482,7 @@
       "star": 0
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "Bilinmeyen Bir Kadının Mektubu ",
       "author": "STEFAN ZWEIG",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/42779234-a84f-11ed-a515-503eaa120fc7_1.jpg.webp",
@@ -503,7 +503,7 @@
       "star": 3
     },
     {
-      "id": 28,
+      "id": "28",
       "name": "Qraf Monte Kristo ",
       "author": "ALEKSANDR DÜMA",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/b0ebee08-c3c8-11ed-a519-503eaa120fc7_1.jpg.webp",
@@ -524,7 +524,7 @@
       "star": 1
     },
     {
-      "id": 30,
+      "id": "30",
       "name": "Fareler Ve Insanlar",
       "author": "Daniel Defo",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/4a88e93a-5053-11eb-a4d2-503eaa128442_1.jpg.webp",
@@ -546,7 +546,7 @@
       "star": 2
     },
     {
-      "id": 31,
+      "id": "31",
       "name": "Kürk Mantolu Madonna ",
       "author": "SABAHATTIN ALI",
       "img": "https://www.libraff.az/images/thumbnails/600/600/from_1c/4a88e931-5053-11eb-a4d2-503eaa128442_1.jpg.webp",
@@ -579,7 +579,7 @@
         "AZE",
         "TUR"
       ],
-      "id": 33
+      "id": "33"
     },
     {
       "name": "Psixiatr xanım",
@@ -593,7 +593,7 @@
       "lang": [
         "AZE"
       ],
-      "id": 35
+      "id": "35"
     },
     {
       "name": "Siz möhtəşəmsiniz",
@@ -608,19 +608,21 @@
         "AZE",
         "TUR"
       ],
-      "id": 36,
-      "view": 50
+      "id": "36",
+      "view": 53
     }
   ],
   "slider": [],
   "comments": [
     {
       "bookId": 1,
-      "comments": []
+      "comments": [],
+      "id": "2719"
     },
     {
       "bookId": 2,
-      "comments": []
+      "comments": [],
+      "id": "22b1"
     },
     {
       "bookId": 3,
@@ -633,7 +635,8 @@
           "userId": 2,
           "text": "Mütləq oxunmalı!"
         }
-      ]
+      ],
+      "id": "acb0"
     },
     {
       "bookId": 4,
@@ -646,7 +649,8 @@
           "userId": 1,
           "text": "Mən çox sevdim."
         }
-      ]
+      ],
+      "id": "a9a3"
     },
     {
       "bookId": 5,
@@ -655,7 +659,8 @@
           "userId": 4,
           "text": "Ağır, amma dərin mənalı."
         }
-      ]
+      ],
+      "id": "da4b"
     },
     {
       "bookId": 6,
@@ -664,7 +669,8 @@
           "userId": 5,
           "text": "Uşaqlar üçün əyləncəli nağıl."
         }
-      ]
+      ],
+      "id": "d20b"
     },
     {
       "bookId": 7,
@@ -673,7 +679,8 @@
           "userId": 2,
           "text": "Klassikləri sevənlər üçün ideal."
         }
-      ]
+      ],
+      "id": "1560"
     },
     {
       "bookId": 8,
@@ -682,7 +689,8 @@
           "userId": 1,
           "text": "Dahi bir əsərdir."
         }
-      ]
+      ],
+      "id": "2fc2"
     },
     {
       "bookId": 9,
@@ -691,7 +699,8 @@
           "userId": 3,
           "text": "Magik realizmin gözəl nümunəsi."
         }
-      ]
+      ],
+      "id": "6b52"
     },
     {
       "bookId": 10,
@@ -700,7 +709,8 @@
           "userId": 4,
           "text": "Fantastika həvəskarları üçün əla seçim."
         }
-      ]
+      ],
+      "id": "45b6"
     },
     {
       "bookId": 11,
@@ -709,7 +719,8 @@
           "userId": 5,
           "text": "Milli qürurverici bir əsər."
         }
-      ]
+      ],
+      "id": "f7aa"
     },
     {
       "bookId": 12,
@@ -718,7 +729,8 @@
           "userId": 2,
           "text": "Sufi fəlsəfəsini gözəl izah edir."
         }
-      ]
+      ],
+      "id": "0668"
     },
     {
       "bookId": 13,
@@ -727,7 +739,8 @@
           "userId": 1,
           "text": "Maraqlı bioqrafiya."
         }
-      ]
+      ],
+      "id": "ad55"
     },
     {
       "bookId": 14,
@@ -736,7 +749,8 @@
           "userId": 3,
           "text": "Tarixi hadisələri yaxşı əks etdirir."
         }
-      ]
+      ],
+      "id": "d73b"
     },
     {
       "bookId": 15,
@@ -745,7 +759,8 @@
           "userId": 4,
           "text": "Uşaqlığımın sevimli kitabı."
         }
-      ]
+      ],
+      "id": "e38e"
     },
     {
       "bookId": 16,
@@ -754,7 +769,8 @@
           "userId": 5,
           "text": "Klassik ədəbiyyatımızın dəyərli nümunəsi."
         }
-      ]
+      ],
+      "id": "8bd1"
     },
     {
       "bookId": 17,
@@ -763,7 +779,8 @@
           "userId": 2,
           "text": "Rus ədəbiyyatının incisi."
         }
-      ]
+      ],
+      "id": "8414"
     },
     {
       "bookId": 18,
@@ -772,7 +789,8 @@
           "userId": 1,
           "text": "Romantik və düşündürücü."
         }
-      ]
+      ],
+      "id": "014d"
     },
     {
       "bookId": 19,
@@ -781,7 +799,8 @@
           "userId": 3,
           "text": "Müharibənin acı nəticələrini göstərir."
         }
-      ]
+      ],
+      "id": "6120"
     },
     {
       "bookId": 20,
@@ -790,7 +809,8 @@
           "userId": 4,
           "text": "Mübarizə və uğur hekayəsi."
         }
-      ]
+      ],
+      "id": "7443"
     },
     {
       "bookId": 21,
@@ -799,7 +819,8 @@
           "userId": 5,
           "text": "Sevgi və faciənin güclü təsviri."
         }
-      ]
+      ],
+      "id": "f66b"
     },
     {
       "bookId": 22,
@@ -808,7 +829,8 @@
           "userId": 2,
           "text": "Türkçülük ideologiyasının əhəmiyyətli əsəri."
         }
-      ]
+      ],
+      "id": "ba77"
     },
     {
       "bookId": 23,
@@ -817,7 +839,8 @@
           "userId": 1,
           "text": "Hikmətli və nəsihətamiz hekayələr."
         }
-      ]
+      ],
+      "id": "3fe0"
     },
     {
       "bookId": 24,
@@ -826,7 +849,8 @@
           "userId": 3,
           "text": "Çox təsirli bir roman."
         }
-      ]
+      ],
+      "id": "0f8d"
     },
     {
       "bookId": 25,
@@ -835,7 +859,8 @@
           "userId": 4,
           "text": "Romantik poeziyanın gözəl nümunəsi."
         }
-      ]
+      ],
+      "id": "c2be"
     },
     {
       "bookId": 26,
@@ -844,7 +869,8 @@
           "userId": 5,
           "text": "Şeir və poeziya sevərlər üçün."
         }
-      ]
+      ],
+      "id": "cc57"
     },
     {
       "bookId": 27,
@@ -853,7 +879,8 @@
           "userId": 2,
           "text": "Uşaqlar üçün maraqlı nağıl."
         }
-      ]
+      ],
+      "id": "ce2e"
     },
     {
       "bookId": 28,
@@ -862,11 +889,13 @@
           "userId": 1,
           "text": "Macəra dolu və həyəcanverici."
         }
-      ]
+      ],
+      "id": "0d63"
     },
     {
       "bookId": 29,
-      "comments": []
+      "comments": [],
+      "id": "ed09"
     },
     {
       "bookId": 30,
@@ -875,7 +904,8 @@
           "userId": 3,
           "text": "Tənhalıq və sağ qalma mübarizəsi."
         }
-      ]
+      ],
+      "id": "edf9"
     },
     {
       "bookId": 31,
@@ -884,11 +914,13 @@
           "userId": 4,
           "text": "Məhəbbətin gücünü göstərir."
         }
-      ]
+      ],
+      "id": "4db9"
     },
     {
       "bookId": 32,
-      "comments": []
+      "comments": [],
+      "id": "810b"
     },
     {
       "bookId": 33,
@@ -897,15 +929,18 @@
           "userId": 5,
           "text": "Dilçilik və tarix üçün dəyərli mənbə."
         }
-      ]
+      ],
+      "id": "0071"
     },
     {
       "bookId": 34,
-      "comments": []
+      "comments": [],
+      "id": "3ae4"
     },
     {
       "bookId": 35,
-      "comments": []
+      "comments": [],
+      "id": "7f8a"
     },
     {
       "bookId": 36,
@@ -914,7 +949,8 @@
           "userId": 2,
           "text": "Motivasiyaedici kitab."
         }
-      ]
+      ],
+      "id": "2519"
     }
   ]
 }

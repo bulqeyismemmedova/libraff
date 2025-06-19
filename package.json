@@ -6,6 +6,7 @@
     "css": "npx tailwindcss -i ./input.css -o ./output.css --watch"
   },
   "dependencies": {
+    "json-server": "^1.0.0-beta.3",
     "notyf": "^3.10.0"
   }
 }

@@ -205,7 +205,8 @@ window.handleView = async (id, view) => {
   await getView(id, { view: (view || 0) + 1 });
   console.log(view);
   await getData();
-  window.location.href = `http://127.0.0.1:5500/detail.htm?id=${id}`;
+  window.location.href = `http://127.0.0.1:5500/index.htm`;
+  // window.location.href = `http://127.0.0.1:5500/detail.htm?id=${id}`;
 };
 
 getData();
